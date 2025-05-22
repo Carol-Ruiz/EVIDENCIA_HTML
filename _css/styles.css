@@ -1,0 +1,78 @@
+body {
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff00cc;
+  text-shadow: 0 0 10px #ff00cc;
+}
+
+nav a {
+  color: #00ffcc;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #00ffff;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 10px;
+  font-size: small;
+  color: #aaa;
+}
+
+img {
+  margin: 10px;
+  border: 3px solid #444;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+  .canciones-contenedor {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .canciones-lista {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .canciones-imagen {
+      flex: 1;
+      max-width: 400px;
+    }
+
+    .canciones-imagen img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+
+    @media (max-width: 768px) {
+      .canciones-contenedor {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
