@@ -1,37 +1,227 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Galería</title>
-  <link rel="stylesheet" href="../_css/styles.css"/>
+    <meta charset="UTF-8">
+    <title>Reflexión</title>
+    <link rel="icon" href="../_img/saynomor.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../_css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Say No More</h1>
-    <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="pagina_1.html">El Álbum</a>
-      <a href="pagina_2.html">Canciones</a>
-      <a href="pagina_3.html">Galería</a>
-      <a href="pagina_4.html">Reflexión</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Say No More</h1>
+        <nav>
+            <a href="../index.html">Biografía</a>
+            <a href="../_html/pagina_1.html">El Álbum</a>
+            <a href="../_html/pagina_2.html">Canciones</a>
+            <a href="pagina_3.html">Reflexión</a>
+            <a href="../_html/pagina_4.html">Galería</a>
+            
+        </nav>
+    </header>
+<BR>
 
-  <main>
-    <h2>Galería Visual</h2>
-    <img src="../_img/charlyn.webp" alt="Charly SNM" width="300">
-    <img src="../_img/charly.jpg" alt="Arte caótico del cd" width="300">
-   
-    <p>El arte visual del disco refleja el caos, la oscuridad y la abstracción. Imágenes intervenidas, luces negras, trazos al azar y colores que evocan lo psicodélico.</p>
-  
-    <p>se pondran mas imagenes sobre las imagenes que trae la libreta del disco del say no more </p>
+   <div class="navigation-form">
+        <form action="" method="get">
+            <label for="section">Ir a la página:</label>
+            <select id="section" name="section" onchange="location = this.value;">
+                <option value="">Seleccione la página</option>
+                <option value="../index.html">Biografía</option>
+                <option value="../_html/pagina_1.html">El Álbum</option>
+                <option value="../_html/pagina_2.html">Canciones</option>
+                <option value="./pagina_3.html">Reflexión</option>
+                <option value="../_html/pagina_4.html">Galería</option>
+            </select>
+        </form>
+    </div>
 
+<section class="galeria-canciones">
+  <h2>Reflexión sobre *Say No More*</h2>
 
-</main>
+  <!-- Canción 1 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/llamas.webp" alt="Estaba en llamas cuando me acosté" />
+      <a href="https://www.youtube.com/watch?v=QkRAkAxSbJY" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Estaba en llamas cuando me acosté»</mark> <small>(7:04)</small></h3>
+      <h4>Reflexión:</h4>
+      <p><strong>"Estaba en llamas cuando me acosté"</strong> es como ese momento en el que te sentís totalmente perdido, con el fuego interno desbordándose. Charly habla de lo cotidiano, de esas quejas que todos tenemos, pero al mismo tiempo nos está mostrando que hay algo más grande en juego, algo profundo que estamos buscando. La referencia a <em>Adán y Eva</em> me hace pensar que a veces tomamos decisiones que nos llevan a lugares complicados, y al final, no hay palabras que puedan explicar todo lo que sentimos. Es como aceptar que, a veces, solo te queda vivir el caos sin saber bien por qué.</p>
+</div>
+</div>
 
-  <footer>
-    <p>&copy; 2025 Charly García.</p>
-  </footer>
+  <!-- Canción 2 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/vemos.jpg" alt="Vemos..." />
+      <a href="https://www.youtube.com/watch?v=40eH3HOEyWU" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Vemos...»</mark> (Instrumental) <small>(0:35)</small></h3>
+      <h4>Reflexión:</h4>
+<p><strong>El ritmo</strong> abre un <em>espacio</em> donde estás solo tú y tus pensamientos, dejando que la <mark>música avance</mark> y te guíe sin palabras. En ese <small>silencio sonoro</small>, cada nota se convierte en un susurro de la mente, llevando a un viaje donde la <i>ausencia de letra</i> se vuelve la verdadera protagonista.</p>
+    </div>
+  </div>
+
+  <!-- Canción 3 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/jirafas.jpg" alt="Canciones de jirafas" />
+      <a href="https://www.youtube.com/watch?v=FgkSN3e8n4s" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Canciones de jirafas»</mark> <small>(2:50)</small></h3>
+      <h4>Reflexión:</h4>
+    <p><strong>"Canciones de Jirafas"</strong>  nos lleva a cuestionar las <em>percepciones superficiales</em> que tenemos sobre el mundo y las relaciones. La <mark>incertidumbre</mark> y el vacío de sus palabras, como <i>"No tengo nada que decirte"</i>, nos invitan a reflexionar sobre la fugacidad de la vida y cómo solemos quedarnos atrapados en lo <small>mundano</small> y repetitivo. Las <strong>jirafas</strong>, con su cuello largo, parecen representar esa necesidad de elevar nuestra mirada y ver las cosas desde una nueva perspectiva, más profunda. Al final, la canción nos recuerda que debemos buscar algo más allá de lo evidente.</p>
+    </div>
+  </div>
+
+  <!-- Canción 4 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/gol.jpeg" alt="Necesito un gol" />
+      <a href="https://www.youtube.com/watch?v=-LwRzW9gqqY&list=PLjluc0aH" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Necesito un gol»</mark> <small>(5:17)</small></h3>
+      <h4>Reflexión:</h4>
+    <p><strong>"Necesito Un Gol"</strong> es una especie de grito de <em>esperanza</em> en medio del caos. Esa frase, <i>"Más allá del principio del placer"</i>, no solo habla del hedonismo, sino de algo más profundo: el deseo de un cambio real, de salir de la rutina y la desesperanza. El gol, en su contexto, es mucho más que un simple triunfo; es el símbolo de una <mark>redención</mark> personal y colectiva, algo que realmente marque la diferencia. Y claro, en medio de todo esto, hay un mensaje claro sobre lo que pasa en el país: <small>algo está cambiando</small>, y la gente lo está empezando a notar.</p>
+    </div>
+  </div>
+
+  <!-- Canción 5 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/alguien.webp" alt="Alguien en el mundo piensa en mí" />
+      <a href="https://www.youtube.com/watch?v=j7XwBi4MMNw" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Alguien en el mundo piensa en mí»</mark> <small>(4:28)</small></h3>
+      <h4>Reflexión:</h4>
+   <p><strong>"Alguien En El Mundo Piensa En Mí"</strong> nos lleva a un lugar de <em>introspección</em> profunda, donde el narrador acepta sus imperfecciones pero se aferra a la esperanza de saber que, a pesar de todo, alguien en el mundo lo recuerda. A través de <mark>imágenes cotidianas</mark>, como un accidente de auto o un gato, García nos habla de la <small>trivialidad</small> de la vida diaria, pero también de esa necesidad humana tan básica: sentir que no estamos solos. La repetición de 'Alguien en el mundo piensa en mí' es un recordatorio de que, aunque parezca que el mundo sigue su curso indiferente, nuestras vidas están conectadas de una forma sutil pero significativa. Es un <i>mantra</i> de consuelo que, al final, nos invita a valorar esas pequeñas conexiones, por efímeras que sean.</p>
+    </div>
+  </div>
+
+  <!-- Canción 6 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/constan.jpeg" alt="Constant Concept" />
+      <a href="https://www.youtube.com/watch?v=born2TqgIT8&list=PLjluc0aH-" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Constant Concept»</mark> (Instrumental) <small>(4:39)</small></h3>
+      <h4>Reflexión:</h4>
+     <p><strong>"Constant Concept"</strong> es como un viaje sin fin, donde cada <em>acorde</em> es un pensamiento que se transforma, y cada pausa, una invitación a reflexionar. En su <mark>complejidad</mark>, la pieza refleja la <i>constante evolución</i> de la mente, que siempre está buscando nuevas formas de expresarse. Como un <small>concepto</small> que nunca se detiene, la canción nos recuerda que la creatividad es un proceso sin cierre, siempre abierta a nuevas posibilidades.</p>
+    </div>
+  </div>
+
+  <!-- Canción 7 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/more.jpg" alt="Say No More" />
+      <a href="https://www.youtube.com/watch?v=A7KQGzNdnhw&list=PLjluc0aH-" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Say No More»</mark> <small>(4:38)</small></h3>
+      <h4>Reflexión:</h4>
+      <p><strong>"Say No More"</strong> de Charly García es una <em>exploración brutal</em> de la traición y el dolor. Con palabras como <i>"Jugaste, Mentiste, Fallaste"</i>, la canción nos sumerge en el vacío de una relación rota. El narrador se siente atrapado en el sufrimiento, mientras la repetición de esas palabras muestra una herida que no cicatriza fácilmente. La búsqueda de redención aparece con frases como <mark><em>"Amaste, Te fuiste, Curaste"</em></mark>, pero el <small>dolor</small> sigue ahí, persistente, incluso cuando el perdón está en el aire. El interludio del hombre en llamas simboliza esa angustia extrema, esa sensación de estar consumido por el dolor. Al final, la canción nos recuerda que, aunque la redención parece lejana, siempre hay una lucha por la paz interior.</p>
+    </div>
+  </div>
+
+  <!-- Canción 8 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/cuchillos.jpg" alt="Cuchillos" />
+      <a href="https://www.youtube.com/watch?v=UvIIUtDgIk8" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Cuchillos»</mark> <small>(5:01)</small></h3>
+      <h4>Reflexión:</h4>
+   <p><strong>"Cuchillos"</strong> es una <em>reflexión cruda</em> sobre la dualidad del amor y el dolor. La canción comienza en un lugar de sinceridad y <mark>fidelidad</mark>, donde el narrador no puede mentir por la historia compartida, pero a medida que avanza, esa conexión se ve rota por la <i>fragilidad</i> de las relaciones. La imagen del cristal cayendo al mar refleja la inevitabilidad de la pérdida, mientras que la repetición de "desaparecer" y "sonreír" nos muestra la lucha entre aceptar la tristeza y mantener una fachada de felicidad. El clímax llega con la metáfora de la navaja gris, que corta la voz del narrador, simbolizando la <small>traición</small> y el dolor profundo. "Cuchillos" es un recordatorio de que el amor puede ser tan hermoso como destructivo, y a veces, las cicatrices más profundas son las que no se ven.</p>
+    </div>
+  </div>
+
+  <!-- Canción 9 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/a1.jpeg" alt="A1" />
+      <a href="https://www.youtube.com/watch?v=YjlNOmyf3bY&list=PLjluc0aH-" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«A1»</mark> (Instrumental) <small>(1:44)</small></h3>
+      <h4>Reflexión:</h4>
+    <p><strong>Una pausa sonora</strong> que invita a sumergirse en la <em>pureza de la música</em>, sin palabras, donde cada nota se convierte en una expresión emocional <strong>única</strong>. Es el espacio perfecto para dejar que los <em>pensamientos fluyan</em> libremente.</p>
+    </div>
+  </div>
+
+  <!-- Canción 10 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/plan9.jpeg" alt="Plan 9" />
+      <a href="https://www.youtube.com/watch?v=-YecCaWYqLI&list=PLjluc0aH" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Plan 9»</mark> (Instrumental) <small>(5:03)</small></h3>
+      <h4>Reflexión:</h4>
+    <p>Escuchar <strong>"Plan 9"</strong> es como viajar a otro <em>universo</em>, donde la música crea paisajes sonoros que parecen sacados de una película de ciencia ficción. Las notas se entrelazan como si fueran estrellas flotando en un espacio infinito, llevando al oyente a un viaje de exploración sonora. Cada acorde parece abrir un portal a un mundo desconocido, lleno de posibilidades y de <i>sorpresas</i>. Es como si la música misma estuviera contando una historia que va más allá de las palabras, invitándonos a perderse en su <small>misterio</small>.</p>
+    </div>
+  </div>
+
+  <!-- Canción 11 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/casa.jpeg" alt="Casa vacía" />
+      <a href="https://www.youtube.com/watch?v=6CW0SJPy7so&list=PLjluc0aH" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Casa vacía»</mark> <small>(5:15)</small></h3>
+      <h4>Reflexión:</h4>
+     <p><strong>"Casa Vacía"</strong>  es una canción que explora la <em>soledad</em> y la <i>búsqueda de sentido</i> en medio de la desolación. La imagen de la casa vacía refleja esa sensación de estar atrapado en una rutina vacía, pero al mismo tiempo, las palabras "hay amor, hay dolor, todavía" nos muestran que, a pesar de todo, hay algo que nos mantiene vivos. La frase <mark><em>"si querés tocar tocá, si querés amar amá"</em></mark> nos recuerda que siempre hay <small>opciones</small> y caminos, aunque el futuro sea incierto. En definitiva, la canción es un grito de libertad en medio de la lucha interna por encontrar propósito y conexión.</p>
+    </div>
+  </div>
+
+  <!-- Canción 12 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/podrias.jpg" alt="Podrías entender" />
+      <a href="https://www.youtube.com/watch?v=jUMp95q9TDg&list=PLjluc0aH" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Podrías entender»</mark> <small>(6:11)</small></h3>
+      <h4>Reflexión:</h4>
+  <p><strong>"Podrías Entender"</strong>nos lleva a un viaje profundo dentro de las emociones humanas. La frase <mark>"Estaba en llamas cuando me acosté"</mark> es una metáfora poderosa de un <em>fuego interno</em> que arde constantemente, simbolizando tanto la pasión como el dolor. La canción habla de la lucha interna, la <i>confusión</i> y la necesidad de ser comprendido, mientras el amor aparece como una bendición y una carga a la vez. La referencia a la <small>fruta prohibida</small> y el fatalismo de repetir errores sugiere que, al final, todos estamos atrapados en nuestros propios destinos. "Say no more" encapsula esa sensación de que hay cosas que simplemente se entienden, incluso sin palabras.</p>
+    </div>
+  </div>
+
+  <!-- Canción 13 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/intuición.jpg" alt="Intuición" />
+      <a href="https://www.youtube.com/watch?v=ih6YPCgyu5w&list=PLjluc0aH" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«Intuición»</mark>  <small>(1:42)</small></h3>
+      <h4>Reflexión:</h4>
+     <p>Escuchar <strong>"Intuición"</strong> es como dejarse llevar por una <em>sensación</em> inexplicable. La música, sin palabras, se convierte en un <i>instinto</i> que guía, evocando lo que no se puede decir pero se siente profundamente. Cada nota parece susurrar lo que el corazón ya sabe, pero la mente aún intenta comprender. Es como un viaje en el que la <mark>intuición</mark> es el único mapa.</p>
+    </div>
+  </div>
+
+  <!-- Canción 14 -->
+  <div class="card-cancion">
+    <div class="card-img">
+      <img src="../_img/vanguardia.webp" alt="La vanguardia es así" />
+      <a href="https://www.youtube.com/watch?v=KoFrUqItloQ&list=PLjluc0aH" class="boton-escuchar" target="_blank">🎧 Escuchar</a>
+    </div>
+    <div class="reflexion-texto">
+      <h3><mark>«La vanguardia es así»</mark> <small>(2:00)</small></h3>
+      <h4>Reflexión:</h4>
+     <p><strong>"La Vanguardia Es Así"</strong>es un grito de desconexión emocional. La frase <mark><em>"Cuando me mires a los ojos y mi mirada esté en otro lugar"</em> </mark>refleja esa sensación de estar presente pero al mismo tiempo ausente, algo tan común en las relaciones modernas. Charly, como siempre, toca temas profundos como la <i>alienación</i> y la vulnerabilidad, sugiriendo que, a veces, el daño es inevitable. La canción, más que un relato personal, es una reflexión sobre cómo nos desconectamos y luchamos por encontrar nuestro lugar en un mundo que a menudo no entiende nuestras emociones.</p>
+    </div>
+  </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025  Charly García</p>
+    </footer>
 </body>
 </html>

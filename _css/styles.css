@@ -46,33 +46,154 @@ img {
   box-shadow: 0 0 10px #00ffff;
 }
 
-  .canciones-contenedor {
+.canciones-contenedor {
       display: flex;
       align-items: flex-start;
       gap: 30px;
       padding: 20px;
       flex-wrap: wrap;
-    }
+}
 
-    .canciones-lista {
+.canciones-lista {
       flex: 1;
       min-width: 280px;
     }
 
-    .canciones-imagen {
+.canciones-imagen {
       flex: 1;
       max-width: 400px;
-    }
+}
 
-    .canciones-imagen img {
+.canciones-imagen img {
       width: 100%;
       border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    }
+      box-shadow: 0 0 10px #00ffff;
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
       .canciones-contenedor {
         flex-direction: column;
         align-items: center;
       }
-    }
+}
+
+
+
+.galeria-canciones {
+  padding: 2rem;
+  
+}
+
+.card-cancion {
+  display: flex;
+  flex-wrap: wrap;
+  background: #1f2024;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px#00ffff(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card-img {
+  position: relative;
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.boton-escuchar {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #df7676;
+  color: #131111;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.boton-escuchar:hover {
+  background-color: #d93c58;
+}
+
+.reflexion-texto {
+  flex: 2 1 400px;
+  padding: 1rem 1.5rem;
+}
+
+.reflexion-texto h3 {
+  margin-top: 0;
+}
+
+.reflexion-texto h4 {
+  margin-top: 1rem;
+  color: #a51e1e;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  justify-items: center; 
+}
+
+img {
+  width: 100%; 
+  max-width: 300px; 
+  margin: 10px;
+  border: 3px solid #444;
+  box-shadow: 0 0 10px #00ffff;
+}
+h2 {
+  color: #3498db; 
+  text-shadow: 0 0 5px rgba(52, 152, 219, 0.6); 
+  border-bottom: 2px solid #2ecc71; 
+  padding-bottom: 5px;
+  font-size: 1.5rem; 
+  margin-top: 20px; 
+}
+
+section img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ffff (22, 212, 212, 0.849); 
+}
+
+.navigation-form {
+  top: 10%;  
+  left: 50%;  
+  padding: 15px;
+  background-color: #181515;  
+  border-radius: 10px;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+  width: 80%;  
+  max-width: 400px;  
+}
+
+/* Estilo del label */
+.navigation-form label {
+  font-size: 16px;
+  color: #fff;  
+  margin-right: 10px;  
+}
+
+.navigation-form select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #b3603073;  
+  border-radius: 5px;
+  background-color: #9fc8d8; 
+  color: #070606;  
+}
+
+

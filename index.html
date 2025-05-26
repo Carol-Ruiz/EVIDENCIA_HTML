@@ -3,72 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>El Álbum</title>
+  <title>Biografía</title>
   <link rel="stylesheet" href="./_css/styles.css"/>
+  <link rel="icon" href="./_img/saynomor.jpg" type="image/x-icon">
 </head>
 <body>
   <header>
     <h1>Say No More</h1>
     <nav>
-      <a href="index.html">Inicio</a>
+      <a href="index.html">Biografía</a>
       <a href="./_html/pagina_1.html">El Álbum</a>
       <a href="./_html/pagina_2.html">Canciones</a>
-      <a href="./_html/pagina_3.html">Galería</a>
-      <a href="./_html/pagina_4.html">Contacto</a>
+      <a href="./_html/pagina_3.html">Reflexión</a>
+      <a href="./_html/pagina_4.html">Galería</a>
     </nav>
   </header>
+<BR>
 
-  <main>
-    <h2>Sobre el Álbum</h2>
+ <div class="navigation-form">
+        <form action="" method="get">
+            <label for="section">Ir a la página:</label>
+            <select id="section" name="section" onchange="location = this.value;">
+                <option value="">Seleccione la página</option>
+                <option value="index.html">Biografía</option>
+                <option value="./_html/pagina_1.html">El Álbum</option>
+                <option value="./_html/pagina_2.html">Canciones</option>
+                <option value="./_html/pagina_3.html">Reflexión</option>
+                <option value="./_html/pagina_4.html">Galería</option>
+            </select>
+        </form>
+    </div>
+</head>
+<body>
 
-    <p>
-      <strong>Say No More</strong>, lanzado en <mark>1996</mark>, es mucho más que un disco: es un <em>manifiesto sonoro</em>, un grito de libertad artística, un descenso al interior de Charly García como nunca antes. Fue grabado en una época marcada por <strong>excesos, introspección, caos creativo</strong> y un Charly profundamente transformado. 
-    </p>
+<main>
+    <h2>Charly García: La Historia de su Vida</h2>
+    <p>Cómo su música atravesó distintos períodos políticos y sociales de la Argentina</p>
 
-    <p>
-      El nombre del álbum, que se traduce como <q>No digas más</q>, refleja la idea de que el arte no debe ser explicado, sino sentido. Para García, <strong>explicar mata la magia</strong>. En sus palabras: 
-      <blockquote>
-        “<em>No digas más. No expliques. La música tiene que hablar por vos</em>” — <cite>Charly García</cite>
-      </blockquote>
-    </p>
 
-    <p>
-      La obra transita una atmósfera <mark>oscura, distorsionada, profunda</mark>. El uso de <strong>loops, efectos, distorsiones y grabaciones caseras</strong> rompe con los cánones de la producción musical tradicional. Es un álbum <em>arriesgado</em> y adelantado a su época, incluso incomprendido por muchos. <del>Muchos críticos no supieron valorarlo en su momento</del>, pero con el tiempo se convirtió en una <strong>pieza de culto</strong>.
-    </p>
-<img src="./_img/saynomore.jpeg" alt="Portada Say No More" width="320" style="float: right; margin-left: 20px; border: 2px solid #000000;">
+    <!-- Sección sobre el nacimiento -->
+    <section>
+        <h2>El Nacimiento de una Leyenda</h2>
+        <p>Charly García nació el 23 de octubre de 1951 en Buenos Aires, en un contexto político marcado por la segunda presidencia de Juan Domingo Perón. A lo largo de su vida, Charly vivió momentos clave que se entrelazaron con los hitos de la historia argentina.</p>
+        <img src="./_img/bebe.jpg" alt="Charly García niño">
+        
+    </section>
 
-    <p>
-      En el plano lírico, Say No More expone a un Charly fragmentado, pero lúcido. Las canciones son retazos de ideas, pensamientos al borde del colapso, <strong>crónicas del alma</strong>. Letras como <q>Estaba en llamas cuando me acosté</q> o <q>Casa vacía</q> muestran su costado más vulnerable. A menudo se habla de este álbum como el <em>más personal y honesto</em> de su carrera.
-    </p>
-    
+    <!-- Sección sobre los inicios musicales -->
+    <section>
+        <h2>Un Inicio Musical Prometedor</h2>
+        <p>Desde pequeño, García mostró una gran inclinación por la música. A los 5 años comenzó a estudiar piano y en 1956 realizó su primera presentación en público. Su amor por la música clásica se vio influenciado por su familia, aunque la aparición de los Beatles en su vida lo llevó a explorar otros géneros.</p>
+        <img src="./_img/niño.avif" alt="Charly García en sus primeros años musicales">
+    </section>
 
-    <p>
-      El álbum es también un ejemplo de cómo la música puede mezclar lo <em>digital, experimental y emocional</em> sin perder identidad. En canciones como <strong>“Intuición”</strong>, se percibe una estructura atípica, alejada del pop, sin estribillo definido, donde la voz se mezcla con los teclados de manera etérea.
-    </p>
+    <!-- Sección sobre Sui Géneris -->
+    <section>
+        <h2>Sui Géneris: El Nacimiento del Rock Nacional</h2>
+        <p>Durante la década del 70, García formó parte de <strong>Sui Géneris</strong>, una de las bandas más representativas del rock argentino. La situación política de la Argentina, con la dictadura militar a la vuelta de la esquina, marcó la censura de muchos de sus temas. A pesar de todo, Sui Géneris se consagró con discos como <mark>Confesiones de invierno</mark> (1972).</p>
+        <img src="./_img/sui.jpeg" alt="Sui Géneris">
+    </section>
 
-    <p>
-      Según el periodista <cite>Sergio Marchi</cite>, quien escribió la biografía oficial de Charly, este disco fue un <strong>acto de valentía</strong>: 
-      <blockquote>
-        “Say No More no es un disco. Es una puerta. Quien entra, no sale igual”.
-      </blockquote>
-    </p>
+    <!-- Sección sobre la dictadura y resistencia -->
+    <section>
+        <h2>La Dictadura y su Música como Resistencia</h2>
+        <p>Durante el proceso militar (1976-1983), Charly García continuó componiendo y presentando música en vivo. A través de sus letras, logró transmitir un mensaje de resistencia y rebelión. Bandas como La Máquina de Hacer Pájaros y <strong>Serú Girán</strong> surgieron en esos años, enfrentando la censura y marcando una huella profunda en la historia del rock nacional.</p>
+        <img src="./_img/dictadura.jpeg" alt="Serú Girán en los años 70">
+    </section>
 
-    <p>
-      Con el tiempo, <strong>Say No More</strong> se convirtió en una <mark>marca personal</mark>, un símbolo que Charly usaría en múltiples discos, firmas, remeras, grafitis y presentaciones. Hoy es parte del <abbr title="Legado musical y cultural de Charly">ADN García</abbr>. En la era digital, este álbum sigue impactando a nuevas generaciones que descubren en él algo que trasciende el sonido.
-    </p>
+    <!-- Sección sobre la etapa solista -->
+    <section>
+        <h2>La Etapa Solista y el Renacer Musical</h2>
+        <p>En 1982, Charly García comenzó su carrera como solista. Su primer disco, <mark>Yendo de la cama al living</mark>, se convirtió en un hito histórico en el rock argentino. A lo largo de los años 80 y 90, sus discos <mark>Clics Modernos</mark> (1983) y <mark>Piano Bar</mark> (1984) lo consagraron como una de las figuras más grandes del rock en español.</p>
+        <img src="./_img/solista.png" alt="Primer concierto solista de Charly García">
+    </section>
 
-    
-    
+    <!-- Sección sobre los años 2000 -->
+    <section>
+        <h2>Charly en los 2000: La Larga Batalla Personal</h2>
+        <p>A lo largo de la década de 1990 y 2000, la carrera de Charly se vio opacada por sus problemas de salud y adicciones. Sin embargo, su regreso a los escenarios en 2009 y la publicación de discos como <mark>Random</mark> (2017) demostraron su capacidad para superar los obstáculos personales y seguir tocando para su público.</p>
+        <img src="./_img/charlisito.jpeg" alt="Charly García en 2009">
+    </section>
 
-    <p>
-      Si bien no es un disco fácil, <strong>Say No More</strong> te recompensa si estás dispuesto a escucharlo sin prejuicios. No es para entender, sino para <em>sentir</em>. Porque como el propio Charly dijo alguna vez: <q>Si entendés Say No More, entendés todo</q>.
-    </p>
+    <!-- Sección con una cita destacada -->
+    <section>
+        <blockquote class="bio-quote">
+            "La música es el lenguaje que todos entienden, incluso en tiempos de dictadura." — <cite>Charly García</cite>
+        </blockquote>
+    </section>
 
-  </main>
+</main>
 
-  <footer>
-    <p>&copy; 2025 Charly García.</p>
-  </footer>
+<footer>
+<p>&copy; 2025 Charly García</p></footer>
+
 </body>
 </html>
-

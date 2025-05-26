@@ -1,25 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galería</title>
-    <link rel="stylesheet" href="../_css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Say No More</h1>
-        <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="../_html/pagina_1.html">El Álbum</a>
-            <a href="../_html/pagina_1.html">Canciones</a>
-            <a href="../_html/pagina_3.html">Galería</a>
-            <a href="pagina_4.html">Reflexión</a>
-        </nav>
-    </header>
+    <link rel="icon" href="../_img/saynomor.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../_css/styles.css" />
 
-    <p>Aca ira una reflexion de algunas canciones y lo que hace sentir o conectar con cada cancion </p>
+  </head>
+  <body>
+    <header>
+      <h1>Say No More</h1>
+      <nav>
+        <a href="../index.html">Biografía</a>
+        <a href="pagina_1.html">El Álbum</a>
+        <a href="pagina_2.html">Canciones</a>
+        <a href="pagina_3.html">Reflexión</a>
+        <a href="pagina_4.html">Galería</a>
+      </nav>
+    </header>
+<BR>
+
+      <div class="navigation-form">
+        <form action="" method="get">
+            <label for="section">Ir a la página:</label>
+            <select id="section" name="section" onchange="location = this.value;">
+                <option value="">Seleccione la página</option>
+                <option value="../index.html">Biografía</option>
+                <option value="../_html/pagina_1.html">El Álbum</option>
+                <option value="../_html/pagina_2.html">Canciones</option>
+                <option value="../_html/pagina_3.html">Reflexión</option>
+                <option value="./pagina_4.html">Galería</option>
+            </select>
+        </form>
+    </div>
+
+    <main>
+      <h2>Galería Visual</h2>
+      <!-- Descripción general del arte de Charly García -->
+      <p>
+        Las imágenes de esta galería muestran la diversidad del arte visual asociado con Charly García. Cada imagen captura un momento o una representación gráfica de su estilo único, que mezcla lo abstracto, lo psicodélico y lo experimental. Desde sesiones fotográficas hasta ilustraciones que reflejan su identidad artística, cada obra es una manifestación del caos y la creatividad que caracteriza a Charly.
+      </p>
+
+      <!-- Contenedor para las imágenes -->
+      <div class="image-container">
+        <img src="../_img/3.jpeg" alt="Charly García en una pose artística, con fondo oscuro" width="300">
+        <img src="../_img/8.jpeg" alt="Retrato psicodélico de Charly García, con colores intensos" width="300">
+        <img src="../_img/11.jpeg" alt="Charly García expresando su estilo único en una sesión fotográfica" width="300">
+        <img src="../_img/4.jpeg" alt="Arte visual abstracto inspirado en el estilo de Charly García" width="300">
+        <img src="../_img/7.jpeg" alt="Diseño artístico del CD de Charly García con formas caóticas y coloridas" width="300">
+        <img src="../_img/12.jpeg" alt="Charly García en el escenario, rodeado de luces dramáticas" width="300">
+        <img src="../_img/charly.jpg" alt="Retrato en blanco y negro de Charly García, mirando al horizonte" width="300">
+        <img src="../_img/5.jpeg" alt="Charly García en una actuación en vivo, con luces psicodélicas" width="300">
+        <img src="../_img/13.webp" alt="Arte digital de Charly García, con trazos de colores brillantes" width="300">
+        <img src="../_img/1.jpeg" alt="Charly García en un momento introspectivo, en blanco y negro" width="300">
+        <img src="../_img/2.jpeg" alt="Obra visual que refleja la esencia caótica de Charly García" width="300">
+        <img src="../_img/10.jpeg" alt="Charly García en una actuación en vivo, con luces de fondo" width="300">
+        <img src="../_img/charlyn.webp" alt="Retrato artístico y surrealista de Charly García" width="300">
+        <img src="../_img/9.jpeg" alt="Arte conceptual de Charly García, con un estilo único y abstracto" width="300">
+        <img src="../_img/14.webp" alt="Composición visual moderna inspirada en la obra de Charly García" width="300">
+      </div>
+
+    </main>
+
     <footer>
-        <p>&copy; 2025 Galería SNM</p>
+      <p>&copy; 2025 Charly García</p>
     </footer>
-</body>
+  </body>
 </html>
