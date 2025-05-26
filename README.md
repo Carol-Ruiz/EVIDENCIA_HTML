@@ -111,7 +111,7 @@ Este sitio web está desarrollado en HTML y CSS, y esta presentado en varias pá
 ---
 
 
-## 📄 `pagina_1.html` - El Álbum
+## `pagina_1.html` - El Álbum
 
 ```html
 <!DOCTYPE html>
@@ -172,7 +172,7 @@ Este sitio web está desarrollado en HTML y CSS, y esta presentado en varias pá
 
 ---
 
-## 📄 `pagina_2.html` - Canciones
+## `pagina_2.html` - Canciones
 
 - Estructura casi idéntica al documento anterior en la parte de `<head>`, `<header>` y `<form>`.
 
@@ -206,7 +206,7 @@ Este sitio web está desarrollado en HTML y CSS, y esta presentado en varias pá
 
 ---
 
-## 📄 `pagina_3.html` - Reflexión
+## `pagina_3.html` - Reflexión
 
 ## Estructura
 - Similar en `<head>`, `<header>` y `<form>`.
@@ -229,7 +229,7 @@ Este sitio web está desarrollado en HTML y CSS, y esta presentado en varias pá
 
 ---
 
-## 📄 `pagina_4.html` - Galería
+## `pagina_4.html` - Galería
 
 ## Secciones principales
 - Igual en estructura al resto.
